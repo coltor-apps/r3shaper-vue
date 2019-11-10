@@ -39,7 +39,8 @@
     "rollup-plugin-copied": "^0.0.2",
     "rollup-plugin-eslint": "^4.0.0",
     "rollup-plugin-vue": "^4.2.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "js-yaml": "^3.13.1"
   },
   "eslintConfig": {
     "root": true,
