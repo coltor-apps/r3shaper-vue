@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-✨R3shaper Vue fetch component ✨
+✨R3shaper Vue request component ✨
 </p>
 
 <p align="center">
