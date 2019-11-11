@@ -21,7 +21,7 @@
 
 > Note: Proper documentation coming soon.
 
-###Installation
+### Installation
 
 ```shell
 npm install r3shaper r3shaper-vue --save
