@@ -47,8 +47,8 @@ yarn add r3shaper r3shaper-vue
 |----------|----------------------------------------------------------|-------------------------------------|
 | loading  | Boolean                                                  | True if the request is in progress. |
 | dispatch | Function(options = {}, reducer = function(oldResult, newResult)) | Request trigger.                    |
-| result   | Mixed                                                    | Request result.                     |
-| error    | Mixed                                                    | Request error.                      |
+| result   | Any                                                    | Request result.                     |
+| error    | Any                                                    | Request error.                      |
 
 
 ## Dependencies
