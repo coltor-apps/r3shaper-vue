@@ -26,7 +26,7 @@
 ```shell
 npm install r3shaper r3shaper-vue --save
 ```
-
+or
 ```shell
 yarn add r3shaper r3shaper-vue
 ```
