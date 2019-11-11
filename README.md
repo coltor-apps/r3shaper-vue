@@ -21,6 +21,16 @@
 
 > Note: Proper documentation coming soon.
 
+###Installation
+
+```shell
+npm install r3shaper r3shaper-vue --save
+```
+
+```shell
+yarn add r3shaper r3shaper-vue
+```
+
 ### Props
 
 | Prop     | Type          | Required | Default | Description                                                          |
@@ -39,3 +49,17 @@
 | dispatch | Function(options = {}, reducer = function(oldResult, newResult)) | Request trigger.                    |
 | result   | Mixed                                                    | Request result.                     |
 | error    | Mixed                                                    | Request error.                      |
+
+
+## Dependencies
+
+- [*r3shaper ^0.1.6*](https://github.com/coltor-apps/r3shaper)
+- [*vue ^2.6.10*](https://github.com/vuejs/vue)
+
+## Credits
+
+Created by [Stratulat Alexandru](https://twitter.com/sandulat).
+
+<a href="https://coltorapps.com/">
+  <img src="https://coltorapps.com/images/logo_transparent.png" width="150px">
+</a>
