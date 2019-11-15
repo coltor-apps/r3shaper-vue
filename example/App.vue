@@ -5,11 +5,8 @@
 <script>
 export default {
   name: 'Example',
-  computed: {
-    resource() {
-      return () => new Promise(resolve => resolve({ foo: 'bar' }));
-    },
+  methods: {
+    resource: () => new Promise(resolve => resolve({ foo: 'bar' })),
   },
 };
 </script>
-

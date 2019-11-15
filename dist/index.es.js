@@ -97,4 +97,8 @@ var R3shaper = {
   }
 };
 
-export default R3shaper;
+var index = {
+  R3shaper: R3shaper
+};
+
+export default index;

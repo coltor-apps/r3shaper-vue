@@ -208,6 +208,10 @@
 	  }
 	};
 
-	return R3shaper;
+	var index = {
+	  R3shaper: R3shaper
+	};
+
+	return index;
 
 })));

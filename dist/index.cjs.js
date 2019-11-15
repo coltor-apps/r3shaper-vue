@@ -101,4 +101,8 @@ var R3shaper = {
   }
 };
 
-module.exports = R3shaper;
+var index = {
+  R3shaper: R3shaper
+};
+
+module.exports = index;

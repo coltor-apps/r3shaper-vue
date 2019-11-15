@@ -23,12 +23,30 @@
 
 ### Installation
 
+1. Install the package.
 ```shell
 npm install r3shaper r3shaper-vue --save
 ```
 or
 ```shell
 yarn add r3shaper r3shaper-vue
+```
+2. Import the component globally:
+```js
+import Vue from 'vue';
+import { R3shaper } from 'r3shaper-vue';
+
+Vue.component('r3shaper', R3shaper);
+```
+or locally where needed:
+```js
+import { R3shaper } from 'r3shaper-vue';
+
+export default {
+  components: {
+    R3shaper,
+  },
+};
 ```
 
 ### Props
